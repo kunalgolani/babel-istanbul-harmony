@@ -1,6 +1,6 @@
 {
-    "name": "istanbul",
-    "version": "0.2.5",
+    "name": "istanbul-harmony",
+    "version": "0.2.7",
     "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
     "keywords": [ "coverage", "code coverage", "JS code coverage", "JS coverage" ],
     "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
@@ -41,10 +41,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/gotwarlost/istanbul.git"
+        "url": "git://github.com/fengmk2/istanbul.git"
     },
     "dependencies": {
-        "esprima": "git://github.com/ariya/esprima.git#harmony",
+        "esprima-harmony": "*",
         "escodegen": "1.2.x",
         "handlebars": "1.3.x",
         "mkdirp": "0.3.x",
@@ -66,4 +66,3 @@
         "bower": "1.x"
     }
 }
-
