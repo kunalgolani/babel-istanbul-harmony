@@ -1,6 +1,6 @@
 /*jslint nomen: true */
 var Instrumenter = require('../../lib/instrumenter'),
-    esprima = require('esprima'),
+    esprima = require('esprima-harmony'),
     instrumenter;
 
 module.exports = {
@@ -60,4 +60,3 @@ module.exports = {
         }
     }
 };
-
