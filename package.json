@@ -51,7 +51,7 @@
         "url": "git://github.com/fengmk2/istanbul.git"
     },
     "dependencies": {
-        "esprima-harmony": "*",
+        "esprima-fb": "*",
         "escodegen": "1.3.x",
         "handlebars": "1.3.x",
         "mkdirp": "0.5.x",
