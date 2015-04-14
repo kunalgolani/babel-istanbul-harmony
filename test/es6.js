@@ -1,4 +1,4 @@
-var esprima = require('esprima-fb');
+var esprima = require('babel-core');
 
 function tryThis(str, feature) {
     try {

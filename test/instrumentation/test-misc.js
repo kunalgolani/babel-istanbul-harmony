@@ -1,6 +1,6 @@
 /*jslint nomen: true */
 var Instrumenter = require('../../lib/instrumenter'),
-    esprima = require('esprima-fb'),
+    esprima = require('babel-core'),
     instrumenter;
 
 module.exports = {
