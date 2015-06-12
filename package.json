@@ -74,6 +74,9 @@
     "type": "git",
     "url": "git://github.com/kunalgolani/istanbul.git"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "dependencies": {
     "abbrev": "1.0.x",
     "async": "0.9.x",
