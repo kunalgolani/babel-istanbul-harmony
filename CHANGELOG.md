@@ -3,6 +3,18 @@ Changelog
 
 <table>
 <tr>
+<td>v0.3.14</td>
+<td>
+    Add text-lcov report format to emit lcov to console, thanks to @bcoe
+</td>
+</tr>
+<tr>
+<td>v0.3.13</td>
+<td>
+    Fix #339
+</td>
+</tr>
+<tr>
 <td>v0.3.12</td>
 <td>
     Allow other-than-dot-js files to be hooked, thanks to @sethpollack

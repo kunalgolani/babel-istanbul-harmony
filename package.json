@@ -1,8 +1,13 @@
 {
-  "name": "istanbul-harmony",
+  "name": "babel-istanbul-harmony",
   "version": "0.3.12",
   "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
-  "keywords": [ "coverage", "code coverage", "JS code coverage", "JS coverage" ],
+  "keywords": [
+    "coverage",
+    "code coverage",
+    "JS code coverage",
+    "JS coverage"
+  ],
   "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
   "license" : "BSD-3-Clause",
   "contributors": [
@@ -53,7 +58,8 @@
     "Tony Lukasavage @tonylukasavage <anthony.lukasavage@gmail.com>",
     "Simon Ramsay @nexus-uw",
     "Dominykas Blyžė @dominykas",
-    "Seth Pollack @sethpollack"
+    "Seth Pollack @sethpollack",
+    "Benjamin E. Coe @bcoe <ben@npmjs.com>"
   ],
   "scripts": {
     "pretest": "jshint index.js lib/ test/ && ./download-escodegen-browser.sh",
@@ -66,23 +72,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fengmk2/istanbul.git"
+    "url": "git://github.com/kunalgolani/istanbul.git"
   },
   "dependencies": {
-    "esprima-fb": "*",
+    "abbrev": "1.0.x",
+    "async": "0.9.x",
+    "babel-core": "5.5.x",
+    "babel-runtime": "5.5.x",
     "escodegen": "1.6.x",
+    "esprima-fb": "*",
+    "fileset": "0.1.x",
     "handlebars": "3.0.0",
+    "js-yaml": "3.x",
     "mkdirp": "0.5.x",
     "nopt": "3.x",
-    "fileset": "0.1.x",
-    "which": "1.0.x",
-    "async": "0.9.x",
-    "supports-color": "1.3.x",
-    "abbrev": "1.0.x",
-    "wordwrap": "0.0.x",
+    "once": "1.x",
     "resolve": "1.1.x",
-    "js-yaml": "3.x",
-    "once": "1.x"
+    "source-map": "0.4.x",
+    "supports-color": "1.3.x",
+    "which": "1.0.x",
+    "wordwrap": "0.0.x"
   },
   "devDependencies": {
     "rimraf": "2.2.x",
